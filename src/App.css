@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-container {
+  background-color: lightgray;
+  padding: 5px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.task {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: grey;
+}
+.plus {
+  font-size: 18px;
+  color: grey;
+}
+.schedule-container {
+  background-color: rgba(162, 214, 238, 0.445);
+  width: 40%;
+}
+.label-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: grey;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.input-class {
+  width: 80%;
+  height: 30px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.date-time-container {
+  display: flex;
+}
+.date-container {
+  margin-right: 20px;
+}
+.date-time-class {
+  width: 100%;
+  height: 30px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.button-container {
+  text-align: end;
+}
+.cancel {
+  border: none;
+  font-family: 'Roboto';
+  background-color: transparent;
+  font-size: 17px;
+  color: gray;
+  margin: 10px;
+  height: 35px;
+  width: 95px;
+}
+.save {
+  border: none;
+  background-color: blue;
+  border-radius: 25px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: lightgray;
+  margin: 10px;
+  height: 35px;
+  width: 90px;
+}
+.check-task {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 40%;
+  color: rgb(53, 48, 48);
+  border: 1px solid lightgrey;
+}
+.check-tasker {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  margin-left: 10px;
+}
+.para {
+  font-size: 17px;
+  margin-left: 10px;
+}
+.line {
+  display: flex;
+}
+.profile {
+  color: blue;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.tick {
+  margin-top: 15px;
+  margin-right: 10px;
+}
